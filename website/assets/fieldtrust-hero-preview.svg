@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 920" role="img" aria-label="FieldTrust mobile app preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#effaf4"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="photo1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b7d4c6"/><stop offset=".5" stop-color="#7ea996"/><stop offset="1" stop-color="#527765"/></linearGradient>
+    <linearGradient id="photo2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dbe9e2"/><stop offset="1" stop-color="#8db3a1"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#073d31" flood-opacity=".16"/></filter>
+    <clipPath id="screen1"><rect x="145" y="104" width="396" height="720" rx="50"/></clipPath>
+    <clipPath id="screen2"><rect x="650" y="185" width="396" height="662" rx="50"/></clipPath>
+  </defs>
+  <ellipse cx="610" cy="510" rx="530" ry="340" fill="url(#bg)"/>
+  <ellipse cx="610" cy="510" rx="420" ry="280" fill="none" stroke="#cfe5da" stroke-width="2" opacity=".7"/>
+
+  <!-- device 1 -->
+  <g filter="url(#shadow)">
+    <rect x="122" y="80" width="442" height="768" rx="68" fill="#111814"/>
+    <rect x="145" y="104" width="396" height="720" rx="50" fill="#f9fcfa"/>
+    <rect x="281" y="119" width="124" height="31" rx="16" fill="#111814"/>
+  </g>
+  <g clip-path="url(#screen1)">
+    <rect x="145" y="104" width="396" height="720" fill="#f7fbf8"/>
+    <text x="177" y="183" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0b2119">Projects</text>
+    <rect x="463" y="160" width="46" height="46" rx="14" fill="#075a46"/>
+    <path d="M486 173v20M476 183h20" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <rect x="177" y="225" width="332" height="48" rx="16" fill="#edf3ef"/>
+    <circle cx="201" cy="249" r="7" fill="none" stroke="#75867f" stroke-width="2"/><path d="m206 254 7 7" stroke="#75867f" stroke-width="2"/>
+    <text x="224" y="255" font-family="Arial, sans-serif" font-size="13" fill="#75867f">Search projects</text>
+    <rect x="177" y="295" width="90" height="34" rx="17" fill="#075a46"/><text x="200" y="317" font-family="Arial" font-size="12" font-weight="700" fill="#fff">Nearby</text>
+    <rect x="276" y="295" width="82" height="34" rx="17" fill="#edf3ef"/><text x="299" y="317" font-family="Arial" font-size="12" fill="#5e7169">Recent</text>
+    <rect x="367" y="295" width="62" height="34" rx="17" fill="#edf3ef"/><text x="389" y="317" font-family="Arial" font-size="12" fill="#5e7169">All</text>
+
+    <g>
+      <rect x="177" y="352" width="332" height="104" rx="18" fill="#fff" stroke="#dfe9e4"/>
+      <rect x="191" y="366" width="88" height="76" rx="13" fill="url(#photo1)"/>
+      <text x="296" y="386" font-family="Arial" font-size="14" font-weight="700" fill="#0c241b">Johnson Residence</text>
+      <text x="296" y="408" font-family="Arial" font-size="11" fill="#72837b">125 King Street · 120 m</text>
+      <rect x="296" y="422" width="70" height="20" rx="10" fill="#e7f8ed"/><circle cx="307" cy="432" r="4" fill="#29d66f"/><text x="316" y="436" font-family="Arial" font-size="9" fill="#075a46">On site</text>
+    </g>
+    <g>
+      <rect x="177" y="470" width="332" height="104" rx="18" fill="#fff" stroke="#dfe9e4"/>
+      <rect x="191" y="484" width="88" height="76" rx="13" fill="url(#photo2)"/>
+      <text x="296" y="504" font-family="Arial" font-size="14" font-weight="700" fill="#0c241b">Riverside Office</text>
+      <text x="296" y="526" font-family="Arial" font-size="11" fill="#72837b">88 Water Street · 1.2 km</text>
+      <text x="296" y="550" font-family="Arial" font-size="10" fill="#72837b">3 photos today</text>
+    </g>
+    <g>
+      <rect x="177" y="588" width="332" height="104" rx="18" fill="#fff" stroke="#dfe9e4"/>
+      <rect x="191" y="602" width="88" height="76" rx="13" fill="#b4c9c0"/>
+      <text x="296" y="622" font-family="Arial" font-size="14" font-weight="700" fill="#0c241b">Service Call · HVAC</text>
+      <text x="296" y="644" font-family="Arial" font-size="11" fill="#72837b">No address · 12 km</text>
+      <text x="296" y="668" font-family="Arial" font-size="10" fill="#72837b">1 photo today</text>
+    </g>
+    <rect x="145" y="754" width="396" height="70" fill="#fff" stroke="#e2eae6"/>
+    <circle cx="215" cy="782" r="5" fill="#075a46"/><text x="195" y="805" font-family="Arial" font-size="9" fill="#075a46">Projects</text>
+    <circle cx="320" cy="782" r="5" fill="#86978f"/><text x="302" y="805" font-family="Arial" font-size="9" fill="#86978f">Capture</text>
+    <circle cx="425" cy="782" r="5" fill="#86978f"/><text x="409" y="805" font-family="Arial" font-size="9" fill="#86978f">Reports</text>
+  </g>
+
+  <!-- device 2 -->
+  <g filter="url(#shadow)" transform="rotate(2 850 515)">
+    <rect x="628" y="161" width="442" height="710" rx="68" fill="#111814"/>
+    <rect x="650" y="185" width="398" height="662" rx="50" fill="#101b17"/>
+    <rect x="785" y="200" width="124" height="31" rx="16" fill="#080d0b"/>
+    <g clip-path="url(#screen2)">
+      <rect x="650" y="185" width="398" height="662" fill="#18251f"/>
+      <rect x="650" y="250" width="398" height="472" fill="url(#photo1)"/>
+      <rect x="650" y="250" width="398" height="472" fill="#081a13" opacity=".13"/>
+      <text x="686" y="282" font-family="Arial" font-size="15" font-weight="700" fill="#fff">Johnson Residence</text>
+      <rect x="686" y="302" width="156" height="29" rx="14" fill="#092f25" opacity=".92"/>
+      <circle cx="702" cy="316" r="5" fill="#29d66f"/><text x="714" y="320" font-family="Arial" font-size="10" fill="#fff">GPS locked · ±4 m</text>
+      <rect x="697" y="646" width="304" height="48" rx="24" fill="#0c1c16" opacity=".86"/>
+      <rect x="801" y="652" width="96" height="36" rx="18" fill="#fff"/><text x="829" y="675" font-family="Arial" font-size="11" font-weight="700" fill="#0b2119">Progress</text>
+      <text x="722" y="676" font-family="Arial" font-size="11" fill="#cedbd5">Before</text><text x="925" y="676" font-family="Arial" font-size="11" fill="#cedbd5">After</text>
+      <circle cx="849" cy="770" r="45" fill="#fff"/><circle cx="849" cy="770" r="36" fill="none" stroke="#202f29" stroke-width="2"/>
+      <rect x="682" y="738" width="54" height="54" rx="13" fill="#f7faf8" opacity=".9"/>
+      <text x="694" y="768" font-family="Arial" font-size="9" fill="#075a46">Ghost</text>
+    </g>
+  </g>
+
+  <!-- floating verification card -->
+  <g filter="url(#shadow)">
+    <rect x="756" y="62" width="292" height="102" rx="22" fill="#ffffff" stroke="#dce9e3"/>
+    <circle cx="792" cy="113" r="20" fill="#e9f9ef"/><path d="m782 113 7 7 14-17" fill="none" stroke="#075a46" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="824" y="105" font-family="Arial" font-size="13" font-weight="700" fill="#0b2119">Saved locally</text>
+    <text x="824" y="127" font-family="Arial" font-size="10" fill="#75867f">Cloud sync runs in background</text>
+  </g>
+</svg>
