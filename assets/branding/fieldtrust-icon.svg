@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="FieldTrust icon">
+  <g fill="none" stroke="#075A46" stroke-width="88" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M118 332 V206 Q118 118 206 118 H332"/>
+    <path d="M692 118 H818 Q906 118 906 206 V332"/>
+    <path d="M118 692 V818 Q118 906 206 906 H332"/>
+    <path d="M692 906 H818 Q906 906 906 818 V692"/>
+  </g>
+  <path d="M342 438 L470 560 L684 340" fill="none" stroke="#29D66F" stroke-width="92" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M244 616 C342 612 445 629 540 668 C624 703 697 755 753 826 L632 826 C582 775 523 738 454 713 C389 689 319 676 244 676 Z" fill="#075A46"/>
+  <path d="M563 675 C638 635 719 613 800 616 L800 665 C733 666 672 681 617 711 C600 698 582 686 563 675 Z" fill="#075A46"/>
+  <path d="M244 702 C319 712 387 737 447 778 C470 794 491 810 510 826 H351 Q244 826 244 719 Z" fill="#075A46"/>
+  <path d="M650 743 C699 717 749 704 800 703 V719 Q800 826 693 826 H671 C663 793 656 766 650 743 Z" fill="#075A46"/>
+</svg>
