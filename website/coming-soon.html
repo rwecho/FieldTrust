@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FieldTrust — Store launch</title>
+  <meta name="description" content="FieldTrust is preparing its App Store and Google Play release. Join the launch list or contact the product team." />
+  <meta name="theme-color" content="#075A46" />
+  <link rel="icon" href="assets/fieldtrust-icon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root{--ink:#0b1f19;--muted:#64726d;--line:#dfe8e4;--green:#2bd670;--deep:#053f32;--soft:#f4faf7}*{box-sizing:border-box}body{margin:0;min-height:100vh;color:var(--ink);font-family:"DM Sans",system-ui,sans-serif;background:radial-gradient(circle at 70% 20%,rgba(43,214,112,.16),transparent 34%),linear-gradient(180deg,#fff,var(--soft));display:grid;grid-template-rows:auto 1fr auto}.wrap{width:min(1100px,calc(100% - 36px));margin:auto}.header{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font:800 24px/1 Manrope}.brand img{width:38px;height:38px}.brand b{color:var(--green)}a{color:inherit;text-decoration:none}.back{font-weight:700;color:#476059}.main{display:grid;grid-template-columns:1fr .85fr;gap:70px;align-items:center;padding:60px 0}.eyebrow{font-size:12px;letter-spacing:.14em;font-weight:800;color:#087553}.main h1{margin:14px 0 18px;font:800 clamp(50px,7vw,86px)/.93 Manrope;letter-spacing:-4.5px}.main h1 span{color:var(--green)}.lead{color:var(--muted);font-size:19px;line-height:1.65;max-width:620px}.store-badges{display:flex;gap:12px;align-items:center;margin-top:27px}.store-badges img{height:49px;width:auto}.store-badges .google{height:72px;margin:-11px -8px}.notice{margin-top:18px;color:#75847e;font-size:13px}.card{padding:30px;border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.9);box-shadow:0 24px 70px rgba(7,90,70,.12)}.card h2{font:800 31px/1.05 Manrope;margin:0 0 9px;letter-spacing:-1px}.card>p{color:var(--muted);line-height:1.55}.card label{display:block;margin:16px 0 0;font-size:12px;color:#4e635a;font-weight:800}.card input,.card select{width:100%;margin-top:6px;padding:13px 14px;border:1px solid #d8e5df;border-radius:10px;background:#fff;font:500 14px "DM Sans"}.button{width:100%;border:0;border-radius:12px;background:var(--green);color:#063326;padding:15px 18px;margin-top:18px;font-weight:800;font-size:15px;cursor:pointer}.mail{text-align:center;color:var(--muted);font-size:12px;margin:13px 0 0}.mail a{color:#087553;font-weight:800}.footer{border-top:1px solid var(--line);padding:24px 0;color:#71817a;font-size:12px}.footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}@media(max-width:800px){.main{grid-template-columns:1fr;gap:34px;padding:40px 0}.main h1{font-size:55px;letter-spacing:-3px}.store-badges{flex-wrap:wrap}}
+  </style>
+</head>
+<body>
+  <header class="wrap header">
+    <a class="brand" href="index.html"><img src="assets/fieldtrust-icon.svg" alt="" /><span>Field<b>Trust</b></span></a>
+    <a class="back" href="index.html">← Back to FieldTrust</a>
+  </header>
+  <main class="wrap main">
+    <section>
+      <div class="eyebrow">MOBILE RELEASE</div>
+      <h1>FieldTrust is coming to your <span>phone.</span></h1>
+      <p class="lead">We are preparing the production release for iPhone and Android. Join the launch list and tell us which platform your field team uses so we can notify you when the store listing is live.</p>
+      <div class="store-badges">
+        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store" />
+        <img class="google" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />
+      </div>
+      <p class="notice">These buttons will link directly to the live store listings when distribution is available.</p>
+    </section>
+    <form class="card" action="https://formsubmit.co/rwecho@live.com" method="POST">
+      <input type="hidden" name="_subject" value="FieldTrust store launch notification request" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <h2>Notify me at launch</h2>
+      <p>Leave your work email and platform. We can also follow up if your team is a good fit for early access.</p>
+      <label>Work email<input type="email" name="Work email" required /></label>
+      <label>Platform<select name="Platform" id="platform"><option>iPhone / iOS</option><option>Android</option><option>Both</option></select></label>
+      <label>Company or trade<input name="Company or trade" placeholder="Construction, HVAC, inspection…" /></label>
+      <button class="button" type="submit">Join the launch list →</button>
+      <p class="mail">Questions? <a href="mailto:rwecho@live.com">rwecho@live.com</a></p>
+    </form>
+  </main>
+  <footer class="footer"><div class="wrap"><span>© 2026 FieldTrust</span><span>Trusted proof from the field.</span></div></footer>
+  <script>
+    const params=new URLSearchParams(location.search);const store=params.get('store');const select=document.getElementById('platform');if(store==='googleplay')select.value='Android';if(store==='appstore')select.value='iPhone / iOS';
+  </script>
+</body>
+</html>
