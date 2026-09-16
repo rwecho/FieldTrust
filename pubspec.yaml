@@ -13,6 +13,7 @@ dependencies:
   flutter_riverpod: ^2.6.1
   go_router: ^14.8.1
   shadcn_ui: ^0.56.3
+  flutter_svg: ^2.0.17
   drift: ^2.26.0
   drift_flutter: ^0.2.4
   path_provider: ^2.1.5
@@ -37,3 +38,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/branding/fieldtrust-icon.svg
+    - assets/branding/fieldtrust-wordmark.svg
